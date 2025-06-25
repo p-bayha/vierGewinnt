@@ -7,7 +7,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(Uebungsprojekt
-    src/.cpp
+    src/Board.cpp
+    src/Game.cpp
+    src/Human.cpp
+    src/Player.cpp
+    src/Main.cpp
 
 )
 
